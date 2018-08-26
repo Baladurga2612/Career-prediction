@@ -1,0 +1,31 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('C:/Users/user/Desktop/carrer data.csv')
+                                               
+df.head
+
+import dataset db = carrer data.connect
+table = db['sometable']
+table.insert(dict(name='1',schooltype='gov',sslc='A1',hsc='A1',cgpa='A1',no_of_minprojects='1',no_of_projects='1',aptitude_skills='observer',programsolving_skills='high',programming_skill='don't know',abstractthink_skill='have no clue',design _skill='have no clue',first _computer=school,first_program=school,lab_programs=do on my own,ds_coding='have theoriticalknowledgeabout',technology_used='basics',sympos_attend='debugging',sympos_won='0',learning_style='an outstanding',college_bench='first bench',clg_teachers_know='every teachers','college_performance='academics',college_skills='LAN gaming',extra_curricular='good sketching'))
+dataset = table.find_one(name ='1')
+
+import dataset db = carrer data.connect
+table = db['sometable']
+tableinsert(dict(name=’2’,schooltype=’gov’,sslc=’A2’,hsc=’A2’,cgpa=’A2’,no_of_miniprojects=’3feb’,no_of_projects=’2’,aptitude_skills=’a listerner’,problem solving_skills=’above’,programming_skills=’wish to learn programming’,abstractthink_skills=’interpret little about’,design_skills=’have heard about’,first_computer=’college’,first_program=’was in college’,lab_programs=’use to copy from my find’,ds_coding=’know basics of’,technology used=’for trees in,sympos_attend=’paper presentation’,sympos_won=’1’,extracurricular=’a good writer’,learning_style=’a average’,college_bench=’an intermediate student’,college_teachers_know=’some teachers’,college_performance=’sports’,college_skills=’playing shuttle’))
+dataset=table.find_one(name='2')
+
+import dataset db = carrer data.connect
+table = db['sometable']
+table insert (dict(name=’3’,schooltype=’gov’,sslc=,’B1’,hsc=’B1’,cgpa=’B1’,no_of_miniprojects=’5-apr’,no_of_projects=’3’,aptitude_skills=’a connector’,problemsolving_skills=’medium,’,programming_skills=’I can do programming’,abstractthink_skills=’ideate and think loud about’,design_skills=’I can ideate and  prototype of’,first_computer=’no’,first_program=’was a lab project’,lab_programs=’use to copy from printout’,ds_coding=’know how to implement program in’,technology used=’for graph,sympos_attend=’software presentation’,sympos_won=’3feb’,extracurricular=’good at photoediting’,learning_style=’below average’,college_bench=’a last bench student’,college_teachers_know=’1 or 2teachers’,college_performance=’arts’,college_skills=’reading books’))
+dataset=table.find_one(name='3')
+
+import dataset db = carrer data.connect
+table = db['sometable']
+table.insert(dict(name='4',schooltype='gov',sslc='B1',hsc='B1',cgpa='B1',no_of_minprojects='>5',no_of_projects='>4',aptitude_skills='leader',programsolving_skills='low',programming_skill='i am an excellent programmer',abstractthink_skill='am competent in that',design _skill='i am excellent i that',first _computer='no',first_program='yet to start',lab_programs=i don't do anything',ds_coding='have excellent knowledge of mapping real world problems',technology_used='do  any programs',sympos_attend='sight seeing',sympos_won='4',learning_style='a low programmer',college_bench='an mischief student ',clg_teachers_know='no one','college_performance='extra curricular',college_skills='surfing skill',extra_curricular='good website designing'))
+dataset=table.find_one(name='4')
+
+
+ 
+
